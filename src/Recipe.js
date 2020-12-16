@@ -13,6 +13,7 @@ const Recipe = ({title, image, ingredients}) => {
                     <li>{ingredients.text}</li>
                 ))}
             </ol>
+            <button type="button">+Add</button>
         </div>
     );
 }
